@@ -1,0 +1,9 @@
+<template>
+  
+</template>
+
+<script>
+export default Vue.extend({
+
+})
+</script>
