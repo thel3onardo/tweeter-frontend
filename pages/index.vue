@@ -1,6 +1,11 @@
 <template>
-  <div class="bg-black h-full">
-      <p>s</p>
+  <div class="h-screen flex justify-center">
+      <div class="flex">
+        <div class="flex flex-col" style="width: 745px">
+          <NewTweet />
+        </div>
+        <TrendingContainer />
+      </div>
   </div>
 </template>
 
