@@ -1,7 +1,9 @@
 <template>
   <div class="flex items-center">
     <input type="file" accept="image/*" class="hidden" @change="handleFileInput" ref="fileInput">
-    <button type="button" class="material-icons text-blue-500 cursor-pointer" @click="(e) => $refs['fileInput'].click()">image</button>
+    <button type="button" class="material-icons text-blue-500 cursor-pointer h-5 w-5 mr-2.5" @click="(e) => $refs['fileInput'].click()">
+        crop_original
+    </button>
     <ClientOnly>
         <Teleport to="#image-upload-preview" v-if="imageFile">
             <div class="w-full h-96 my-5">
