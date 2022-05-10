@@ -20,6 +20,4 @@ onMounted(() => {
         { hashtag: 'learntocode', interactions: 1 },
     ];
 });
-
-console.log(trendingItems.value)
 </script>

@@ -4,5 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     buildModules: [
         '@nuxtjs/tailwindcss',
+        'nuxt-material-design-icons'
     ],
 })
