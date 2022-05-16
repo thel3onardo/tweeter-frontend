@@ -7,8 +7,12 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@nuxt/test-utils": "^3.0.0-rc.2",
     "@nuxtjs/tailwindcss": "^5.0.4",
-    "nuxt": "3.0.0-rc.1"
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0",
+    "nuxt": "3.0.0-rc.1",
+    "ts-jest": "^28.0.2"
   },
   "dependencies": {
     "nuxt-material-design-icons": "^1.0.4",

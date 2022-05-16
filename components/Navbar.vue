@@ -10,9 +10,7 @@
             </li>
         </ul>
       </nav>
-      <div class="py-4">
-          <NavbarProfile profile-pic="https://9tailedkitsune.com/wp-content/uploads/2021/04/zero-two_-cute.jpg" username="Leonardo" />
-      </div>
+      <NavbarProfile profile-pic="https://9tailedkitsune.com/wp-content/uploads/2021/04/zero-two_-cute.jpg" username="Leonardo" />
   </div>
 </template>
 
