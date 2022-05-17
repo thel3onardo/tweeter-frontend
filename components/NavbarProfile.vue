@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import NavbarProfileMenu from './NavbarProfileMenu.vue';
 
 defineProps<{
     profilePic: string
