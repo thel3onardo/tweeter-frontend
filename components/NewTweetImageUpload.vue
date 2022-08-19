@@ -13,6 +13,7 @@
     </ClientOnly>
   </div>
 </template>
+
 <script setup>
 const imageFile = ref(null);
 const imagePreviewURL = ref(null);
